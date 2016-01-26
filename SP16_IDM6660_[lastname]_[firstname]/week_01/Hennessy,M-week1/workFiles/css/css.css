@@ -1,0 +1,192 @@
+/* SIMPLE RESET */
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 960px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: auto;
+}
+
+*, *:before, *:after {
+	margin:0;
+	padding:0;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/* FONT STYLES */
+
+html, aside ol li:nth-of-type(2) {
+
+	font-family: 'Merriweather', serif;
+	font-size: 16px;
+	line-height: 1.125em;
+
+}
+
+h1, h2, h3, h4, h5, h6, aside ol {
+
+	font-family: 'Oswald', sans-serif;
+}
+
+
+h1 {
+	text-align: center;
+	text-transform: capitalize;
+	padding-left: 10px;
+	font-family: 'cabin', 'Cambria', sans-serif;
+}
+
+h1 a {
+	text-transform: uppercase;
+	color: black;
+	font-size: 150%;
+}
+
+h2 {
+	font-family: 'cabin', 'Cambria', sans-serif;
+	font-weight: bold;
+}	
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.main a {
+	text-decoration: none;
+}
+
+.main li {
+	margin-left: 5px;
+	padding: 10px;
+	display: inline-block;
+	border-bottom: none;
+}
+ 
+.first {
+	margin-top: 100px;
+	max-width: 450px;
+	float: left;
+} 
+
+h2 span {
+	background-color: orange;
+}
+
+.first h1 {
+	padding-right: 150px;
+	padding-bottom: 20px;
+	font-size: 150%;
+}
+
+.first img {
+	max-width: 400px;
+	padding: 10px;
+}
+
+#niven {
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+#dalton {
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+#nelson {
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+#brosnan {
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+#moore {
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+#laxenby {
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+#craig {
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+#connery {
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.second {
+	margin-top: 100px;
+	text-align: center;
+	max-width: 450px;
+	float: right;
+	margin-bottom: 5000px;
+}
+
+.second img {
+	max-width: 70%;
+	padding: 25px;
+}
+
+.second li {
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-bottom: 10px;
+}
+
+.third {
+	max-width: 160px;
+	float: left;
+}
+
+.third ul {
+	padding-top: 15px;
+}
+
+.fourth {
+	max-width: 160px;
+	float: left;
+	padding-left: 25px;
+	padding-top: 90px;
+}
+
+.fifth {
+	max-width: 160px;
+	float: right;
+	padding-top: 90px;
+}
+
+p, a {
+	font-family: 'oxygen', sans-serif;
+}
+
+a {
+	color: black;
+}
+a:hover {
+	color: orange;
+	text-decoration: underline;
+}
+
+footer {
+	margin-top: 50px;
+}
+
+/* STUDENT STYLES */
+
