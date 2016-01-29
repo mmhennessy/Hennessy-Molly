@@ -1,0 +1,131 @@
+/* SIMPLE RESET */
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	margin:0;
+	padding:0;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/* FONT STYLES */
+
+html, aside ol li:nth-of-type(2) {
+
+	font-family: 'Merriweather', serif;
+	font-size: 16px;
+	line-height: 1.125em;
+
+}
+
+h1, h2, h3, h4, h5, h6, aside ol {
+
+	font-family: 'Oswald', sans-serif;
+
+}
+
+/* STUDENT STYLES */
+
+html {
+	background-color: white;
+	color: #332025;
+}
+
+body {
+	width: 960px;
+	margin: auto; 
+}
+
+section img {
+	width: 100%;
+}
+
+aside img {
+	width: 220px;
+}
+
+a {
+	color: #332025;
+}
+
+a:hover {
+	background-color: orange;
+}
+
+header {
+	width: 940px;
+	padding-bottom: 20px;
+	margin-bottom: 50px;
+}
+
+header h1 {
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	font-size: 72px;
+}
+
+header h1 a {
+	color: #332025;
+	text-decoration: none;
+}
+
+header nav ul {
+	text-align: center;
+}
+
+header nav ul li {
+	display: inline;
+	margin: 5px;
+	font-size: 1.1em;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: #332025;
+}
+
+section {
+	margin-top: 25px;
+	margin-right: 20px;
+	width: 620px;
+	float: left;
+}
+
+section h1 {
+	font-size: 48px;
+	padding-right: 150px;
+	line-height: 1em;
+	margin-bottom: 60px;
+}
+
+section article h2 {
+	margin-bottom: 25px;
+	font-size: 48px;
+	position: relative;
+}
+
+section article h2 span:first-of-type {
+	display: table-cell;
+	background-color: orange;
+	color: white;
+	font-size: 20px;
+	font-weight: 300;
+	vertical-align: center;
+	position: absolute;
+	top: 60px;
+	left: 20px;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	border-radius: 50%;
+	
+}
