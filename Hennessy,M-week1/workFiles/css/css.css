@@ -1,5 +1,5 @@
 /* SIMPLE RESET */
-
+/* Author: Molly Hennessy and Robert Algeo*/
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -50,7 +50,7 @@ h1 a {
 h2 {
 	font-family: 'cabin', 'Cambria', sans-serif;
 	font-weight: bold;
-}	
+}
 
 nav ul {
 	list-style-type: none;
@@ -69,12 +69,12 @@ nav ul {
 	display: inline-block;
 	border-bottom: none;
 }
- 
+
 .first {
 	margin-top: 100px;
 	max-width: 450px;
 	float: left;
-} 
+}
 
 h2 span {
 	background-color: orange;
@@ -189,4 +189,3 @@ footer {
 }
 
 /* STUDENT STYLES */
-
