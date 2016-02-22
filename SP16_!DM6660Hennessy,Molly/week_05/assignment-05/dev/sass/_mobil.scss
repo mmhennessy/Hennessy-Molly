@@ -1,0 +1,120 @@
+html {
+  background-color: white; 
+  border: 0.3em solid black;
+  margin: auto;
+}
+
+header ul {
+  text-align: left; 
+}
+
+header ul li {
+  display: block;
+  font-size: 5em;
+  font-family: Cambria, sans-serif;
+  background-color: white;
+  font-weight: bold; 
+  padding: 0;
+  margin: 0;
+}
+
+ header ul li a {
+  color: black; 
+  }
+
+ header img {
+  max-width: 100%;
+ } 
+
+#plan:hover {
+  color: red; }
+
+#attract:hover {
+  color: orange; }
+
+#host:hover {
+  color: gray; }
+
+#educ:hover {
+  color: brown; }
+
+#vol:hover {
+  color: green; }
+
+#como:hover {
+  color: red; }
+
+.main {
+  float: none;
+  max-width: 90%;
+  border: 0.5em solid blue; 
+}
+
+.main img {
+  max-width: 40%;
+  padding: 2%;
+  background-color: white; }
+
+.notes {
+  clear: both; 
+}
+
+aside {
+  padding-left: 1em; 
+  float: none;
+  max-width: 75%;
+  border: 0.3em solid blue;
+  margin-top: 2em; 
+}
+
+aside ul {
+  padding-bottom: 5em; }
+
+aside img {
+  background-color: white;
+  padding: 1em; 
+  max-width: 80%;
+  border: 0.1em solid green; 
+}
+
+#a {
+  float: none;
+  max-width: 100%; 
+}
+
+#b {
+  float: none;
+  max-width: 100%; 
+}
+
+#c {
+  float: none;
+  max-width: 100%; 
+}
+
+h1, h2, h3, p, ul li {
+  text-decoration: none;
+  color: black; 
+}
+
+h1 {
+  font-family: arial;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.5em;
+   }
+
+h2, h3 {
+  font-size: 1.3em;
+  font-family: arial; 
+}
+
+h2 {
+  font-weight: bold; 
+}
+
+p, li, a {
+  font-family: times, sans-serif;
+  font-size: 0.75em;
+  line-height: 1em; 
+}
