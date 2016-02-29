@@ -1,0 +1,63 @@
+@media screen and (min-width: 640px){
+  
+  body {
+  margin: auto;
+}
+
+  html {
+  background-color: white; 
+  border: 0.3em solid black;
+}
+
+header button {
+  color: white;
+  background-color: red;
+}
+
+header ul {
+  text-align: center; 
+  background-color: green;
+}
+
+header ul li {
+  display: inline;
+  padding: 0.5em;
+  }
+
+header ul li a {
+  color: white;
+}
+
+header ul li a:hover {
+  color: gold;
+}
+
+.main img {
+  max-width: 45%;
+  padding: 2%;
+}
+
+aside {
+  max-width: 97%;
+  border: transparent;
+}
+
+aside ul {
+  max-width: 45%;
+  float: left;
+}
+
+aside img {
+  max-width: 50%;
+  float: right;
+  padding-bottom: 3em;
+  padding-right: 3em;
+  padding-top: 1em;
+  border: transparent;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+}
