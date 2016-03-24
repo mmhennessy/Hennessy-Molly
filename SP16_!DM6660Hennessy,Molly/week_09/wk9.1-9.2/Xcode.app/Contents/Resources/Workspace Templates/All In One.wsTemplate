@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GID</key>
+	<string>F5F68CF101725D4C0D7A8F4C</string>
+	<key>Geometry</key>
+	<dict>
+		<key>ContentSize</key>
+		<string>{856, 572}</string>
+		<key>LeftSlideOut</key>
+		<dict>
+			<key>ActiveTab</key>
+			<string>0</string>
+			<key>ActiveTabName</key>
+			<string>PBXGroupTreeModule</string>
+			<key>Collapsed</key>
+			<string>NO</string>
+			<key>Frame</key>
+			<string>{{0, 23}, {856, 549}}</string>
+			<key>Split0</key>
+			<dict>
+				<key>Collapsed</key>
+				<string>NO</string>
+				<key>Frame</key>
+				<string>{{284, 0}, {572, 549}}</string>
+				<key>Split0</key>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 24}, {572, 525}}</string>
+				</dict>
+				<key>SplitCount</key>
+				<string>1</string>
+				<key>Tab0</key>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {572, 214}}</string>
+				</dict>
+				<key>Tab1</key>
+				<dict>
+					<key>Debugger</key>
+					<dict>
+						<key>Collapsed</key>
+						<string>NO</string>
+						<key>Frame</key>
+						<string>{{0, 0}, {572, 150}}</string>
+						<key>Split0</key>
+						<dict>
+							<key>Frame</key>
+							<string>{{0, 24}, {572, 126}}</string>
+							<key>Split0</key>
+							<dict>
+								<key>Frame</key>
+								<string>{{0, 0}, {279, 126}}</string>
+							</dict>
+							<key>Split1</key>
+							<dict>
+								<key>DebugVariablesTableConfiguration</key>
+								<array>
+									<string>Name</string>
+									<real>123</real>
+									<string>Value</string>
+									<real>85</real>
+									<string>Summary</string>
+									<real>62.123001098632812</real>
+								</array>
+								<key>Frame</key>
+								<string>{{288, 0}, {284, 126}}</string>
+							</dict>
+							<key>SplitCount</key>
+							<string>2</string>
+						</dict>
+						<key>SplitCount</key>
+						<string>1</string>
+						<key>Tab0</key>
+						<dict>
+							<key>Frame</key>
+							<string>{{0, 0}, {100, 50}}</string>
+						</dict>
+						<key>Tab1</key>
+						<dict>
+							<key>Frame</key>
+							<string>{{0, 0}, {100, 50}}</string>
+						</dict>
+						<key>TabCount</key>
+						<string>2</string>
+						<key>TabsVisible</key>
+						<string>YES</string>
+					</dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {572, 125}}</string>
+					<key>LauncherConfigVersion</key>
+					<string>7</string>
+				</dict>
+				<key>Tab2</key>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {572, 126}}</string>
+					<key>LauncherConfigVersion</key>
+					<string>3</string>
+					<key>Runner</key>
+					<dict>
+						<key>Frame</key>
+						<string>{{0, 0}, {572, 126}}</string>
+					</dict>
+				</dict>
+				<key>Tab3</key>
+				<dict>
+					<key>BuildMessageFrame</key>
+					<string>{{0, 0}, {574, 182}}</string>
+					<key>BuildTranscriptFrame</key>
+					<string>{{0, 191}, {574, 76}}</string>
+					<key>Frame</key>
+					<string>{{0, 0}, {572, 265}}</string>
+				</dict>
+				<key>Tab4</key>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 0}, {572, 295}}</string>
+				</dict>
+				<key>TabCount</key>
+				<string>5</string>
+				<key>TabsVisible</key>
+				<string>YES</string>
+			</dict>
+			<key>SplitCount</key>
+			<string>1</string>
+			<key>Tab0</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 0}, {260, 549}}</string>
+				<key>GroupTreeTableConfiguration</key>
+				<array>
+					<string>TargetStatusColumn</string>
+					<real>18</real>
+					<string>MainColumn</string>
+					<real>227</real>
+				</array>
+			</dict>
+			<key>Tab1</key>
+			<dict>
+				<key>ClassesFrame</key>
+				<string>{{0, 0}, {247, 330}}</string>
+				<key>ClassesTreeTableConfiguration</key>
+				<array>
+					<string>PBXBookColumnIdentifier</string>
+					<real>20</real>
+					<string>PBXClassColumnIdentifier</string>
+					<real>204</real>
+				</array>
+				<key>Frame</key>
+				<string>{{0, 0}, {245, 549}}</string>
+				<key>MembersFrame</key>
+				<string>{{0, 339}, {247, 210}}</string>
+				<key>MembersTreeTableConfiguration</key>
+				<array>
+					<string>PBXBookColumnIdentifier</string>
+					<real>20</real>
+					<string>PBXMethodColumnIdentifier</string>
+					<real>203</real>
+				</array>
+			</dict>
+			<key>Tab2</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 0}, {226, 549}}</string>
+			</dict>
+			<key>Tab3</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 0}, {191, 549}}</string>
+				<key>TargetTableConfiguration</key>
+				<array>
+					<string>ActiveObject</string>
+					<real>16</real>
+					<string>ObjectNames</string>
+					<real>202.29600524902344</real>
+				</array>
+			</dict>
+			<key>Tab4</key>
+			<dict>
+				<key>BreakpointsTreeTableConfiguration</key>
+				<array>
+					<string>breakpointColumn</string>
+					<real>138</real>
+					<string>enabledColumn</string>
+					<real>31</real>
+				</array>
+				<key>Frame</key>
+				<string>{{0, 0}, {191, 549}}</string>
+			</dict>
+			<key>TabCount</key>
+			<string>5</string>
+			<key>TabsVisible</key>
+			<string>YES</string>
+		</dict>
+		<key>NavBarShownByDefault</key>
+		<string>YES</string>
+		<key>StatusViewVisible</key>
+		<string>YES</string>
+		<key>Template</key>
+		<string>F5F68CF101725D4C0D7A8F4C</string>
+		<key>ToolbarVisible</key>
+		<string>YES</string>
+		<key>WindowLocation</key>
+		<string>{240, 188}</string>
+	</dict>
+	<key>Name</key>
+	<string>All In One</string>
+	<key>Toolbar</key>
+	<dict>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+		<key>TB Item Identifiers</key>
+		<array>
+			<string>build</string>
+			<string>build-and-debug</string>
+			<string>build-and-run</string>
+			<string>NSToolbarSeparatorItem</string>
+			<string>clean-target</string>
+			<string>NSToolbarSeparatorItem</string>
+			<string>active-combo-popup</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>debugger-restart-executable</string>
+			<string>debugger-pause</string>
+			<string>debugger-continue</string>
+			<string>debugger-step-over</string>
+			<string>debugger-step-into</string>
+			<string>debugger-step-out</string>
+			<string>NSToolbarSpaceItem</string>
+		</array>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>Version</key>
+	<string>1</string>
+</dict>
+</plist>

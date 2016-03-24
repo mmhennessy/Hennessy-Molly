@@ -1,0 +1,11 @@
+/**
+    JaveDebugger
+
+*/
+(
+    {
+        Identifier = javadebugger;
+        Name = "javadebugger";
+		Type = "Generic";
+    }
+)

@@ -1,0 +1,313 @@
+{
+	AppleEventCode = pbas;
+	Classes = {
+		"PBXExtendedApplication" = {
+			AppleEventCode = capp;
+			Attributes = {
+				"currentProjectDocument" = {
+					AppleEventCode = apdc;
+					Type = "PBXDocumentSuite.PBXProjectDocument";
+				};
+				selection = {
+					AppleEventCode = sele;
+					Type = "PBXApplicationSuite.PBXTextSelection";
+				};
+			};
+			Superclass = "ASKApplicationSuite.NSApplication";
+			SupportedCommands = {
+				"PBXApplicationSuite.PathForDocumentWithAppleRef" = "handlePathForDocumentWithAppleRefScriptCommand:";
+				"PBXApplicationSuite.PathForDocumentWithUUID" = "handlePathForDocumentWithUUIDScriptCommand:";
+				"PBXApplicationSuite.ShowDocumentWithAppleRef" = "handleShowDocumentWithAppleRefScriptCommand:";
+				"PBXApplicationSuite.ShowDocumentWithUUID" = "handleShowDocumentWithUUIDScriptCommand:";
+				"PBXApplicationSuite.ShowDocumentWithPath" = "handleShowDocumentWithPathScriptCommand:";
+				"PBXApplicationSuite.LoadDocumentationSetWithPath" = "handleLoadDocumentationSetWithPathScriptCommand:";
+				"PBXApplicationSuite.UpgradeProjectFile" = "handleUpgradeProjectFileScriptCommand:";
+				"PBXProjectSuite.Build" = "handleBuildScriptCommand:";
+				"PBXProjectSuite.Clean" = "handleCleanScriptCommand:";
+				"PBXProjectSuite.Debug" = "handleDebugScriptCommand:";
+				"PBXProjectSuite.Launch" = "handleLaunchScriptCommand:";
+				"PBXProjectSuite.Upgrade" = "handleUpgradeScriptCommand:";
+			};
+			ToManyRelationships = {
+				globalBreakpoints = {
+					AppleEventCode = brek;
+					"LocationRequiredToCreate" = NO;
+					Type = "PBXProjectSuite.PBXBreakpoint";
+				};
+				"globalFileBreakpoints" = {
+					AppleEventCode = fbrk;
+					"LocationRequiredToCreate" = NO;
+					Type = "PBXProjectSuite.PBXFileBreakpoint";
+				};
+				"globalSymbolicBreakpoints" = {
+					AppleEventCode = sbrk;
+					"LocationRequiredToCreate" = NO;
+					Type = "PBXProjectSuite.PBXSymbolicBreakpoint";
+				};
+				"orderedClassModelDocuments" = {
+					AppleEventCode = xdcd;
+					Type = "XDPluginSuite.XDSourceCodeDocController";
+				};
+				"orderedDataModelDocuments" = {
+					AppleEventCode = xdpd;
+					Type = "XDPluginSuite.XDPersistenceDocumentController";
+				};
+				orderedDocuments = {
+					AppleEventCode = docu;
+					Type = "ASKDocumentSuite.NSDocument";
+				};
+				orderedFileDocuments = {
+					AppleEventCode = fild;
+					Type = "PBXDocumentSuite.PBXFileDocument";
+				};
+				"orderedModelDocuments" = {
+					AppleEventCode = xdmd;
+					Type = "XDPluginSuite.XDModelDocument";
+				};
+				"orderedProjectDocuments" = {
+					AppleEventCode = prdc;
+					Type = "PBXDocumentSuite.PBXProjectDocument";
+				};
+				"orderedSourceDocuments" = {
+					AppleEventCode = souf;
+					Type = "PBXDocumentSuite.XCEditDocument";
+				};
+				orderedTextDocuments = {
+					AppleEventCode = texd;
+					Type = "PBXDocumentSuite.PBXTextFileDocument";
+				};
+				orderedWindows = {
+					AppleEventCode = cwin;
+					Type = "ASKApplicationSuite.NSWindow";
+				};
+				projects = {
+					AppleEventCode = proj;
+					Type = "PBXProjectSuite.PBXProject";
+				};
+			};
+		};
+		PBXInsertionPoint = {
+			AppleEventCode = cins;
+			Attributes = {
+				textStorage = {
+					AppleEventCode = pcnt;
+					Type = "PBXApplicationSuite.XCTextStorage";
+				};
+			};
+			Superclass = "NSCoreSuite.AbstractObject";
+		};
+		PBXTextSelection = {
+			AppleEventCode = tsel;
+			Attributes = {
+				contents = {
+					AppleEventCode = pcnt;
+					Type = "PBXApplicationSuite.XCTextStorage";
+				};
+			};
+			Superclass = "NSCoreSuite.AbstractObject";
+		};
+		XCTextStorage = {
+			AppleEventCode = ctxt;
+			Superclass = "NSTextSuite.NSTextStorage";
+			ToManyRelationships = {
+				attributeRuns = {
+					AppleEventCode = catr;
+					Type = "PBXApplicationSuite.XCTextStorage";
+				};
+				characters = {
+					AppleEventCode = "cha ";
+					Type = "PBXApplicationSuite.XCTextStorage";
+				};
+				insertionPoints = {
+					AppleEventCode = cins;
+					Type = "PBXApplicationSuite.PBXInsertionPoint";
+				};
+				paragraphs = {
+					AppleEventCode = cpar;
+					Type = "PBXApplicationSuite.XCTextStorage";
+				};
+				words = {
+					AppleEventCode = cwor;
+					Type = "PBXApplicationSuite.XCTextStorage";
+				};
+			};
+			ToOneRelationships = {
+				text = {
+					AppleEventCode = ctxt;
+					Type = "PBXApplicationSuite.XCTextStorage";
+				};
+			};
+		};
+		PBXTextStorage = {
+			AppleEventCode = ctxt;
+			Superclass = "NSTextSuite.NSTextStorage";
+			ToManyRelationships = {
+				attributeRuns = {
+					AppleEventCode = catr;
+					Type = "PBXApplicationSuite.PBXTextStorage";
+				};
+				characters = {
+					AppleEventCode = "cha ";
+					Type = "PBXApplicationSuite.PBXTextStorage";
+				};
+				insertionPoints = {
+					AppleEventCode = cins;
+					Type = "PBXApplicationSuite.PBXInsertionPoint";
+				};
+				paragraphs = {
+					AppleEventCode = cpar;
+					Type = "PBXApplicationSuite.PBXTextStorage";
+				};
+				words = {
+					AppleEventCode = cwor;
+					Type = "PBXApplicationSuite.PBXTextStorage";
+				};
+			};
+			ToOneRelationships = {
+				text = {
+					AppleEventCode = ctxt;
+					Type = "PBXApplicationSuite.PBXTextStorage";
+				};
+			};
+		};
+	};
+	Commands = {
+		Add = {
+			AppleEventClassCode = core;
+			AppleEventCode = "add ";
+			Arguments = {
+				ToLocation = {
+					AppleEventCode = insh;
+					Optional = YES;
+					Type = "NSPositionalSpecifier";
+				};
+			};
+			CommandClass = NSScriptCommand;
+			ResultAppleEventCode = "****";
+			Type = "";
+		};
+		Move = {
+			AppleEventClassCode = core;
+			AppleEventCode = move;
+			Arguments = {
+				ToLocation = {
+					AppleEventCode = insh;
+					Optional = YES;
+					Type = "NSPositionalSpecifier";
+				};
+			};
+			UnnamedArgument = {
+				Type = "PBXProjectSuite.PBXProjectItem";
+			};
+			CommandClass = NSScriptCommand;
+			ResultAppleEventCode = "****";
+			Type = "";
+		};
+		"PathForDocumentWithAppleRef" = {
+			AppleEventClassCode = core;
+			AppleEventCode = pdar;
+			CommandClass = "XCShowDocumentationScriptCommand";
+			ResultAppleEventCode = "****";
+			Type = "";
+			UnnamedArgument = {
+				Type = NSString;
+			};
+		};
+		"PathForDocumentWithUUID" = {
+			AppleEventClassCode = core;
+			AppleEventCode = pdau;
+			CommandClass = "XCShowDocumentationScriptCommand";
+			ResultAppleEventCode = "****";
+			Type = "";
+			UnnamedArgument = {
+				Type = NSString;
+			};
+		};
+		Remove = {
+			AppleEventClassCode = core;
+			AppleEventCode = remv;
+			Arguments = {
+				Target = {
+					AppleEventCode = from;
+					Optional = NO;
+					Type = NSObject;
+				};
+			};
+			CommandClass = NSScriptCommand;
+		};
+		"ShowDocumentWithAppleRef" = {
+			AppleEventClassCode = core;
+			AppleEventCode = sdar;
+			CommandClass = "XCShowDocumentationScriptCommand";
+			ResultAppleEventCode = "****";
+			Type = "";
+			UnnamedArgument = {
+				Type = NSString;
+			};
+		};
+		ShowDocumentWithUUID = {
+			AppleEventClassCode = core;
+			AppleEventCode = sdau;
+			CommandClass = "XCShowDocumentationScriptCommand";
+			ResultAppleEventCode = "****";
+			Type = "";
+			UnnamedArgument = {
+				Type = NSString;
+			};
+		};
+		ShowDocumentWithPath = {
+			AppleEventClassCode = core;
+			AppleEventCode = sdap;
+			CommandClass = "XCShowDocumentationScriptCommand";
+			ResultAppleEventCode = "****";
+			Type = "";
+			UnnamedArgument = {
+				Type = NSString;
+			};
+		};
+		"LoadDocumentationSetWithPath" = {
+			AppleEventClassCode = core;
+			AppleEventCode = ldsp;
+			CommandClass = "XCShowDocumentationScriptCommand";
+			ResultAppleEventCode = "****";
+			Type = "";
+			Arguments = {
+				WithDisplay = {
+					AppleEventCode = wdsp;
+					Optional = YES;
+					Type = "NSNumber<Bool>";
+				};
+			};
+			UnnamedArgument = {
+				Type = NSString;
+			};
+		};
+		UpgradeProjectFile = {
+			AppleEventClassCode = core;
+			AppleEventCode = uppf;
+			Arguments = {
+				CopyingToName = {
+					AppleEventCode = "as  ";
+					Optional = YES;
+					Type = NSString;
+				};
+			};
+			CommandClass = "XCUpgradeProjectFileScriptCommand";
+			ResultAppleEventCode = "****";
+			Type = "";
+			UnnamedArgument = {
+				Type = "NSString<FilePath>";
+			};
+		};
+	};
+	Name = PBXApplicationSuite;
+	Synonyms = {
+		catr = XCTextStorage;
+		"cha " = XCTextStorage;
+		cpar = XCTextStorage;
+		cwor = XCTextStorage;
+	};
+	UsedFeatures = (
+		UnnamedArguments,
+	);
+}

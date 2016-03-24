@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
+<plist version="0.9">
+<dict>
+	<key>Build</key>
+	<array>
+		<string>F5F68CF101725D4C0D7A8F4C</string>
+		<string>YES</string>
+	</array>
+	<key>Classes</key>
+	<array>
+		<string>F5F68CF101725D4C0D7A8F4C</string>
+		<string>YES</string>
+	</array>
+	<key>Debug</key>
+	<array>
+		<string>F5F68CF101725D4C0D7A8F4C</string>
+		<string>YES</string>
+	</array>
+	<key>Editor</key>
+	<array>
+		<string>F5F68CF101725D4C0D7A8F4C</string>
+		<string>YES</string>
+	</array>
+	<key>Find</key>
+	<array>
+		<string>F5F68CF101725D4C0D7A8F4C</string>
+		<string>YES</string>
+	</array>
+	<key>Help</key>
+	<array>
+		<string>F5F68CF101725D4C0D7A8F4C</string>
+		<string>YES</string>
+	</array>
+	<key>Project</key>
+	<array>
+		<string>F5F68CF101725D4C0D7A8F4C</string>
+		<string>YES</string>
+	</array>
+	<key>Run</key>
+	<array>
+		<string>F5F68CF101725D4C0D7A8F4C</string>
+		<string>YES</string>
+	</array>
+	<key>Targets</key>
+	<array>
+		<string>F5F68CF101725D4C0D7A8F4C</string>
+		<string>YES</string>
+	</array>
+	<key>Breakpoints</key>
+	<array>
+		<string>F5F68CF101725D4C0D7A8F4C</string>
+		<string>YES</string>
+	</array>
+	<key>Bookmarks</key>
+	<array>
+		<string>F5F68CF101725D4C0D7A8F4C</string>
+		<string>YES</string>
+	</array>
+	<key>CVSView</key>
+	<array>
+		<string>F5F68CF101725D4C0D7A8F4C</string>
+		<string>YES</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Classes</key>
+	<dict>
+		<key>PBXExtendedApplication</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>currentProjectDocument</key>
+				<dict>
+					<key>Description</key>
+					<string>The active project document in Xcode.</string>
+					<key>Name</key>
+					<string>active project document</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>The Xcode application.</string>
+			<key>Name</key>
+			<string>application</string>
+			<key>PluralName</key>
+			<string>applications</string>
+		</dict>
+		<key>PBXInsertionPoint</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>textStorage</key>
+				<dict>
+					<key>Description</key>
+					<string>The contents at the insertion point.</string>
+					<key>Name</key>
+					<string>contents</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>The insertion point in a document, which is either empty or has an associated text selection.</string>
+			<key>Name</key>
+			<string>insertion point</string>
+			<key>PluralName</key>
+			<string>insertion points</string>
+		</dict>
+		<key>XCTextStorage</key>
+		<dict>
+			<key>Description</key>
+			<string>An object that represents a block of text.</string>
+			<key>Name</key>
+			<string>text</string>
+		</dict>
+	</dict>
+	<key>Commands</key>
+	<dict>
+		<key>Add</key>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>ToLocation</key>
+				<dict>
+					<key>Description</key>
+					<string>The container to add the direct object to</string>
+					<key>Name</key>
+					<string>to</string>
+					<key>Number</key>
+					<string>singular</string>
+					<key>Sex</key>
+					<string>none</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Adds an existing object to the container specified.</string>
+			<key>IsVerb</key>
+			<string>YES</string>
+			<key>Name</key>
+			<string>add</string>
+		</dict>
+		<key>Move</key>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>ToLocation</key>
+				<dict>
+					<key>Description</key>
+					<string>The container to move the direct object to</string>
+					<key>Name</key>
+					<string>to</string>
+					<key>Number</key>
+					<string>singular</string>
+					<key>Sex</key>
+					<string>none</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Moves an existing object to the container specified.</string>
+			<key>IsVerb</key>
+			<string>YES</string>
+			<key>Name</key>
+			<string>move</string>
+		</dict>
+		<key>PathForDocumentWithAppleRef</key>
+		<dict>
+			<key>Description</key>
+			<string>Return path of document containing apple_ref.</string>
+			<key>Name</key>
+			<string>path for apple_ref</string>
+			<key>UnnamedArgument</key>
+			<dict>
+				<key>Description</key>
+				<string>The apple_ref.</string>
+			</dict>
+		</dict>
+		<key>PathForDocumentWithUUID</key>
+		<dict>
+			<key>Description</key>
+			<string>Return path of document identified by UUID.</string>
+			<key>Name</key>
+			<string>path for document with UUID</string>
+			<key>UnnamedArgument</key>
+			<dict>
+				<key>Description</key>
+				<string>The UUID.</string>
+			</dict>
+		</dict>
+		<key>Remove</key>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>Target</key>
+				<dict>
+					<key>Description</key>
+					<string>The container from which to remove the object.</string>
+					<key>Name</key>
+					<string>from</string>
+					<key>Number</key>
+					<string>singular</string>
+					<key>Sex</key>
+					<string>none</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Removes the object from the designated container without deleting it.</string>
+			<key>IsVerb</key>
+			<string>YES</string>
+			<key>Name</key>
+			<string>remove</string>
+		</dict>
+		<key>ShowDocumentWithAppleRef</key>
+		<dict>
+			<key>Description</key>
+			<string>Show document containing supplied apple_ref in the documentation window.</string>
+			<key>Name</key>
+			<string>show document with apple_ref</string>
+			<key>UnnamedArgument</key>
+			<dict>
+				<key>Description</key>
+				<string>The unique apple_ref string associated with the document.</string>
+			</dict>
+		</dict>
+		<key>ShowDocumentWithUUID</key>
+		<dict>
+			<key>Description</key>
+			<string>Show document identified by supplied UUID in the documentation window.</string>
+			<key>Name</key>
+			<string>show document with UUID</string>
+			<key>UnnamedArgument</key>
+			<dict>
+				<key>Description</key>
+				<string>The UUID string associated with the document.</string>
+			</dict>
+		</dict>
+		<key>ShowDocumentWithPath</key>
+		<dict>
+			<key>Description</key>
+			<string>Show document at supplied path in the documentation window.</string>
+			<key>Name</key>
+			<string>show document with path</string>
+			<key>UnnamedArgument</key>
+			<dict>
+				<key>Description</key>
+				<string>The path to the document.</string>
+			</dict>
+		</dict>
+		<key>LoadDocumentationSetWithPath</key>
+		<dict>
+			<key>Description</key>
+			<string>Load documentation set at supplied path.</string>
+			<key>Name</key>
+			<string>load documentation set with path</string>
+			<key>Arguments</key>
+			<dict>
+				<key>WithDisplay</key>
+				<dict>
+					<key>Description</key>
+					<string>Whether or not to display the documentation window after the doc set is loaded.</string>
+					<key>Name</key>
+					<string>display</string>
+				</dict>
+			</dict>
+			<key>UnnamedArgument</key>
+			<dict>
+				<key>Description</key>
+				<string>The path to the document set.</string>
+			</dict>
+		</dict>
+		<key>UpgradeProjectFile</key>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>CopyingToName</key>
+				<dict>
+					<key>Description</key>
+					<string>The filename to use for the new, upgraded project file in the project directory.</string>
+					<key>Name</key>
+					<string>as</string>
+					<key>Number</key>
+					<string>singular</string>
+					<key>Sex</key>
+					<string>none</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Upgrade the given project file to the latest project file format. This will open the project if the upgrade succeeds.</string>
+			<key>Name</key>
+			<string>upgrade project file</string>
+			<key>UnnamedArgument</key>
+			<dict>
+				<key>Description</key>
+				<string>the path to the project file to upgrade</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>This suite contains application-level classes and commands.</string>
+	<key>Name</key>
+	<string>Xcode Application Suite</string>
+	<key>Synonyms</key>
+	<dict>
+		<key>catr</key>
+		<dict>
+			<key>Description</key>
+			<string>This subdivides the text into chunks that all have the same attributes.</string>
+			<key>Name</key>
+			<string>attribute run</string>
+			<key>PluralName</key>
+			<string>attribute runs</string>
+		</dict>
+		<key>cha </key>
+		<dict>
+			<key>Description</key>
+			<string>This subdivides the text into characters.</string>
+			<key>Name</key>
+			<string>character</string>
+			<key>PluralName</key>
+			<string>characters</string>
+		</dict>
+		<key>cpar</key>
+		<dict>
+			<key>Description</key>
+			<string>This subdivides the text into paragraphs.</string>
+			<key>Name</key>
+			<string>paragraph</string>
+			<key>PluralName</key>
+			<string>paragraphs</string>
+		</dict>
+		<key>cwor</key>
+		<dict>
+			<key>Description</key>
+			<string>This subdivides the text into words.</string>
+			<key>Name</key>
+			<string>word</string>
+			<key>PluralName</key>
+			<string>words</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,213 @@
+@media screen and (max-width: 3000px) {
+  html {
+    margin: auto;
+    border: 0.3em solid #091991; } }
+@media screen and (max-width: 960px) {
+  html {
+    margin: auto;
+    border: 0.3em solid #091991; }
+
+  header h1 {
+    color: #091991;
+    max-width: 38%;
+    font-size: 2em;
+    font-family: Times New Roman, serif;
+    float: left; }
+
+  header ul {
+    float: right;
+    margin: 1%;
+    padding: 1%;
+    max-width: 60%; }
+
+  header ul li {
+    display: inline;
+    font-size: 1em;
+    font-family: georgia, sans-serif;
+    color: #095b4a; }
+
+  header ul li a {
+    text-decoration: none;
+    color: #095b4a; }
+
+  body h2 {
+    clear: both;
+    font-family: Times New Roman, serif;
+    font-size: 1.7em;
+    color: #095b4a; }
+
+  body p, h3 {
+    font-family: arial, sans-serif; }
+
+  body h3 {
+    font-size: 1.3em;
+    color: #095b4a;
+    padding-top: 1em; }
+
+  body p {
+    font-size: 1.1em; }
+
+  body img {
+    padding: 3%; }
+
+  body img:first-of-type {
+    float: left;
+    margin-left: 3%; }
+
+  body img:nth-of-type(2) {
+    float: right;
+    margin-right: 3%; }
+
+  body img:nth-of-type(3) {
+    float: left;
+    margin-left: 3%;
+    clear: both; }
+
+  body img:nth-of-type(4) {
+    float: right;
+    margin-right: 3%; }
+
+  body img:nth-of-type(5) {
+    float: left;
+    margin-left: 3%;
+    clear: both; }
+
+  body img:nth-of-type(6) {
+    float: right;
+    margin-right: 3%; } }
+@media screen and (max-width: 640px) {
+  header h1 {
+    max-width: 100%;
+    color: #091991;
+    font-size: 2em;
+    padding-bottom: 2%;
+    font-family: Times New Roman, serif; }
+
+  header ul {
+    float: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    background-color: #095d48; }
+
+  header ul li {
+    display: inline;
+    font-size: 1em;
+    font-family: georgia, sans-serif;
+    background-color: #09ace0;
+    padding-left: 3%;
+    padding-right: 3%; }
+
+  header ul li a {
+    text-decoration: none;
+    color: #095b4a; }
+
+  body h2 {
+    clear: both;
+    padding-top: 2%;
+    font-family: Times New Roman, serif;
+    font-size: 1.7em;
+    color: #095b4a; }
+
+  body p, h3 {
+    font-family: arial, sans-serif; }
+
+  body h3 {
+    font-size: 1.3em;
+    color: #095b4a;
+    padding-top: 1em; }
+
+  body p {
+    font-size: 1.1em; }
+
+  body img {
+    padding: 3%; }
+
+  body img:first-of-type {
+    float: left;
+    margin-left: 1%; }
+
+  body img:nth-of-type(2) {
+    float: right;
+    margin-right: 1%; }
+
+  body img:nth-of-type(3) {
+    float: left;
+    margin-left: 1%;
+    clear: both; }
+
+  body img:nth-of-type(4) {
+    float: right;
+    margin-right: 1%; }
+
+  body img:nth-of-type(5) {
+    float: left;
+    margin-left: 1%;
+    clear: both; }
+
+  body img:nth-of-type(6) {
+    float: right;
+    margin-right: 1%; } }
+@media screen and (max-width: 320px) {
+  html {
+    background-color: #57d0e2; }
+
+  header h1 {
+    max-width: 100%;
+    color: #091991;
+    font-size: 2.3em;
+    padding-bottom: 2%;
+    font-family: Times New Roman, serif; }
+
+  header ul {
+    float: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    background-color: transparent; }
+
+  header ul li {
+    display: block;
+    font-size: 1.2em;
+    font-family: georgia, sans-serif;
+    background-color: transparent;
+    padding: 1%;
+    margin: 0; }
+
+  header ul li a {
+    text-decoration: underline;
+    color: #095b4a; }
+
+  header ul li:hover {
+    color: #09ace0;
+    text-decoration: none;
+    font-style: italic; }
+
+  body h2 {
+    clear: both;
+    padding-top: 2%;
+    font-family: Times New Roman, serif;
+    font-size: 1.8em;
+    color: #095b4a; }
+
+  body p, h3 {
+    font-family: arial, sans-serif; }
+
+  body h3 {
+    font-size: 1.6em;
+    color: #095b4a;
+    padding-top: 1em; }
+
+  body p {
+    font-size: 1.4em;
+    line-height: 1.3em; }
+
+  body img {
+    float: none;
+    padding: 2%;
+    margin: 1%;
+    max-width: 100%; } }
+
+/*# sourceMappingURL=css.css.map */

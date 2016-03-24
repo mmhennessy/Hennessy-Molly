@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GroupName</key>
+	<string>wheel</string>
+	<key>Label</key>
+	<string>com.apple.distccdConfigd</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Library/Developer/3.2/distcc/distcclaunchdconfig</string>
+	</array>
+	<key>RunAtLoad</key>
+	<false/>
+	<key>SHAuthorizationRight</key>
+	<string>com.apple.Xcode.distcc.admin</string>
+	<key>UserName</key>
+	<string>root</string>
+</dict>
+</plist>

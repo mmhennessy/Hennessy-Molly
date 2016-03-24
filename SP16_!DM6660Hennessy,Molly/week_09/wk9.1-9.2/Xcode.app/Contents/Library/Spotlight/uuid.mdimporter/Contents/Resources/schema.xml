@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<schema version="1.0" xmlns="http://www.apple.com/metadata"
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:schemaLocation="http://www.apple.com/metadata file:///System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Resources/MetadataSchema.xsd">
+    <note>
+        Extracts all UUID values from mach-o files for all cpu variants.
+    </note>
+    <attributes>
+        <attribute name="com_apple_xcode_dsym_uuids" multivalued="true" type="CFString"/>
+        <attribute name="com_apple_xcode_dsym_paths" multivalued="true" type="CFString"/>
+    </attributes>
+
+    <types>
+        <type name="com.apple.xcode.dsym">
+            <note>
+				Imports UUID values for dSYM files for all cpu types and subtypes.
+			</note>
+            <allattrs>
+				com_apple_xcode_dsym_uuids com_apple_xcode_dsym_paths
+            </allattrs>
+            <displayattrs>
+				com_apple_xcode_dsym_uuids
+            </displayattrs>
+        </type>
+    </types>
+</schema>
+
