@@ -1,0 +1,52 @@
+{
+    "\015" = "insertNewline:";                          /* carriage return */
+    "\003" = "insertNewline:";                          /* enter (!) */
+
+    "^c" = "PBX_interrupt:";
+        
+    "^i" = "indentSelection:";
+    
+    "^," = "complete:";
+    "^>" = "previousCompletion:";
+    "^?" = "completionPlaceholderSelectPrevious:";
+    
+    "@~" = "noop:"; /* Command + Option + anything not otherwise bound */
+    
+    "^r" = "PBX_executeSelectionInsertingOutput:";
+    "^~r" = "PBX_executeSelectionReplacingOutput:";
+    "$^~r" = "PBX_executeSelectionAlertOutput:";
+
+    "^1" = "popLoadedFilesPopUp:";
+    "^~1" = "popLoadedFilesPopUp:";     // This allows the option-shows-all-open-files behavior to work for the key combo as well.
+    "^2" = "popSymbolsPopUp:";
+    "^~2" = "popSymbolsPopUp:";         // This allows the option-reverses-sort-order behavior to work for the key combo as well.
+    "^3" = "popIncludedHeadersPopUp:";
+    "^4" = "popBookmarksPopUp:";
+    "^5" = "popBreakpointsPopUp:";
+    "^6" = "popNavigatorPopUp:";
+	
+    "@\UF729" = "scrollLineUp:";                            /* Cmd-Home */
+    "@\UF72B" = "scrollLineDown:";                          /* Cmd-End */
+
+    "^\UF702" = "moveSubWordBackward:";                     /* Ctl-Left Arrow */
+    "^$\UF702" = "moveSubWordBackwardAndModifySelection:";  /* Ctl-Shift-Left Arrow */
+    "^\UF703" = "moveSubWordForward:";                      /* Ctl-Right Arrow */
+    "^$\UF703" = "moveSubWordForwardAndModifySelection:";   /* Ctl-Shift-Right Arrow */
+
+    "^\177" = "deleteSubWordBackward:";                     /* ctl-delete */
+    "^\UF728" = "deleteSubWordForward:";                    /* ctl-forwardDelete */
+
+    /* Mark-point stuff (Emacs-style mark and point bindings are implemented but not bound by default.  In the text system the mark and point are ranges, not just locations.  The "point" is the selected range.) */
+    "^\\@" = "setMark:";
+    "^ " = "setMark:";
+    "^w" = "deleteToMark:";
+    "^x" = {
+        "^x" = "swapWithMark:";
+        "^m" = "selectToMark:";
+    };
+
+    /* Legacy key bindings for menu items removed in Xcode 3 */
+    "@'" =  "closeCurrentNavigator:";
+    "@\"" = "splitCurrentNavigator:";
+    "@~\"" = "splitCurrentNavigatorHorizontally:";
+}

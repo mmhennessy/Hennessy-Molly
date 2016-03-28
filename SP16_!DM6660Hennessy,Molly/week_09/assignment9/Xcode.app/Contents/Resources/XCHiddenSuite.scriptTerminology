@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Commands</key>
+	<dict>
+		<key>documentationConfigurationChanged</key>
+		<dict>
+			<key>Description</key>
+			<string>Notifies Xcode of a change to the documentation configuration.</string>
+			<key>Name</key>
+			<string>documentation configuration changed</string>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>The Hidden Suite of the Xcode application.</string>
+	<key>Name</key>
+	<string>Xcode Hidden Suite</string>
+</dict>
+</plist>

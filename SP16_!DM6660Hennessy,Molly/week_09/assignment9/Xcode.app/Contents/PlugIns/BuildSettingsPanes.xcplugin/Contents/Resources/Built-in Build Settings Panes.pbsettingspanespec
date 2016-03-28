@@ -1,0 +1,58 @@
+(
+    {
+        Identifier = "com.apple.target-editor-pane.settings.general";
+        Name = PBXGeneralSettingsNameString;
+        SettingsDomainPath = "com.apple.pbx";
+        SettingsPaneClass = PBXBuildSettingsGeneralModule;
+        Class = PBXBuildSettingsPaneSpecification;
+    },
+    {
+        Identifier = "com.apple.target-editor-pane.settings.installation";
+        Name = PBXInstallationSettingsNameString;
+        SettingsDomainPath = "com.apple.pbx";
+        SettingsPaneClass = PBXBuildSettingsInstallationModule;
+        Class = PBXBuildSettingsPaneSpecification;
+        SettingsPaneFollows = "com.apple.target-editor-pane.settings.general";
+        TargetClasses = (PBXTarget);
+    },
+    {
+        Identifier = "com.apple.target-editor-pane.settings.compiler.gcc";
+        Name = PBXGccCompilerSettingsNameString;
+        SettingsDomainPath = "com.apple.pbx.compilers.gcc";
+        SettingsPaneClass = PBXBuildSettingsGccCompilerModule;
+        Class = PBXBuildSettingsPaneSpecification;
+        SettingsPaneFollows = "com.apple.target-editor-pane.settings.installation";
+    },
+    {
+        Identifier = "com.apple.target-editor-pane.settings.linker.ld";
+        Name = PBXLinkerSettingsNameString;
+        SettingsDomainPath = "com.apple.pbx.linkers.ld";
+        SettingsPaneClass = PBXBuildSettingsLinkerModule;
+        Class = PBXBuildSettingsPaneSpecification;
+        SettingsPaneFollows = "com.apple.target-editor-pane.settings.compiler.gcc";
+    },
+    {
+        Identifier = "com.apple.target-editor-pane.settings.searchpaths";
+        Name = PBXSearchPathsNameString;
+        SettingsDomainPath = "com.apple.pbx";
+        SettingsPaneClass = PBXBuildSettingsSearchPathsModule;
+        Class = PBXBuildSettingsPaneSpecification;
+        SettingsPaneFollows = "com.apple.target-editor-pane.settings.linker.ld";
+    },
+    {
+        Identifier = "com.apple.target-editor-pane.settings.compiler.java";
+        Name = PBXJavaCompilerSettingsNameString;
+        SettingsDomainPath = "com.apple.pbx.compilers.java";
+        SettingsPaneClass = PBXBuildSettingsJavaCompilerModule;
+        Class = PBXBuildSettingsPaneSpecification;
+        SettingsPaneFollows = "com.apple.target-editor-pane.settings.searchpaths";
+    },
+    {
+        Identifier = "com.apple.target-editor-pane.settings.linker.java";
+        Name = PBXJavaArchiveSettingsNameString;
+        SettingsDomainPath = "com.apple.pbx.linkers.java";
+        SettingsPaneClass = PBXBuildSettingsJavaArchiveModule;
+        Class = PBXBuildSettingsPaneSpecification;
+        SettingsPaneFollows = "com.apple.target-editor-pane.settings.compiler.java";
+    }
+)

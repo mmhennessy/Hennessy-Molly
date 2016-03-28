@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppleEventCode</key>
+	<string>tpnm</string>
+	<key>UsedFeatures</key>
+	<array>
+		<string>UnnamedArguments</string>
+	</array>
+	<key>Commands</key>
+	<dict>
+		<key>documentationConfigurationChanged</key>
+		<dict>
+			<key>AppleEventClassCode</key>
+			<string>pbas</string>
+			<key>AppleEventCode</key>
+			<string>docx</string>
+			<key>CommandClass</key>
+			<string>XCDocConfigChangedVerb</string>
+		</dict>
+		<key>Create</key>
+		<dict>
+			<key>AppleEventClassCode</key>
+			<string>core</string>
+			<key>AppleEventCode</key>
+			<string>crel</string>
+			<key>Arguments</key>
+			<dict>
+				<key>KeyDictionary</key>
+				<dict>
+					<key>AppleEventCode</key>
+					<string>prdt</string>
+					<key>Optional</key>
+					<string>YES</string>
+					<key>Type</key>
+					<string>NSDictionary&lt;Properties&gt;</string>
+				</dict>
+				<key>Location</key>
+				<dict>
+					<key>AppleEventCode</key>
+					<string>insh</string>
+					<key>Optional</key>
+					<string>YES</string>
+					<key>Type</key>
+					<string>NSPositionalSpecifier</string>
+				</dict>
+				<key>ObjectClass</key>
+				<dict>
+					<key>AppleEventCode</key>
+					<string>kocl</string>
+					<key>Type</key>
+					<string>NSNumber&lt;TypeCode&gt;</string>
+				</dict>
+				<key>ObjectData</key>
+				<dict>
+					<key>AppleEventCode</key>
+					<string>data</string>
+					<key>Optional</key>
+					<string>YES</string>
+					<key>Type</key>
+					<string>NSObject</string>
+				</dict>
+			</dict>
+			<key>CommandClass</key>
+			<string>XCCreateCommand</string>
+			<key>ResultAppleEventCode</key>
+			<string>obj </string>
+			<key>Type</key>
+			<string>NSScriptObjectSpecifier</string>
+		</dict>
+	</dict>
+	<key>Name</key>
+	<string>XCHiddenSuite</string>
+</dict>
+</plist>

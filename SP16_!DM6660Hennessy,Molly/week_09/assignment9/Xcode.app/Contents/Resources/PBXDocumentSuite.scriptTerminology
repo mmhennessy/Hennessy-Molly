@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Classes</key>
+	<dict>
+		<key>PBXProjectDocument</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>project</key>
+				<dict>
+					<key>Description</key>
+					<string>The project for this document.</string>
+					<key>Name</key>
+					<string>project</string>
+				</dict>
+				<key>scmTranscript</key>
+				<dict>
+					<key>Description</key>
+					<string>The transcript of SCM operations for this document.</string>
+					<key>Name</key>
+					<string>scm transcript</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>A project document contains references to both its project and the window they are displayed in.</string>
+			<key>Name</key>
+			<string>project document</string>
+			<key>PluralName</key>
+			<string>project documents</string>
+		</dict>
+		<key>PBXSourceFileDocument</key>
+		<dict>
+			<key>Description</key>
+			<string>A document that represents a source file on disk. It also provides access to the window it appears in.</string>
+			<key>Name</key>
+			<string>source document</string>
+			<key>PluralName</key>
+			<string>source documents</string>
+            <key>Attributes</key>
+            <dict>
+                <key>userScriptEnvironment</key>
+                <dict>
+                    <key>Description</key>
+                    <string>A record of source editor settings and values.</string>
+                    <key>Name</key>
+                    <string>editor settings</string>
+                </dict>
+            </dict>
+		</dict>
+		<key>PBXTextFileDocument</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>contents</key>
+				<dict>
+					<key>Description</key>
+					<string>The contents of the text file.</string>
+					<key>Name</key>
+					<string>contents</string>
+				</dict>
+				<key>textStorage</key>
+				<dict>
+					<key>Description</key>
+					<string>The text of the text file referenced.</string>
+					<key>Name</key>
+					<string>text</string>
+				</dict>
+				<key>selection</key>
+				<dict>
+					<key>Description</key>
+					<string>The current selection in the text document.</string>
+					<key>Name</key>
+					<string>selection</string>
+				</dict>
+				<key>notifyOnClose</key>
+				<dict>
+					<key>Description</key>
+					<string>Should Xcode notify other apps when this document is closed?</string>
+					<key>Name</key>
+					<string>notifies when closing</string>
+				</dict>
+				<key>selectedCharRange</key>
+				<dict>
+					<key>Description</key>
+					<string>The first and last character positions in the selection.</string>
+					<key>Name</key>
+					<string>selected character range</string>
+				</dict>
+				<key>selectedLineRange</key>
+				<dict>
+					<key>Description</key>
+					<string>The first and last paragraph positions that contain the selection.</string>
+					<key>Name</key>
+					<string>selected paragraph range</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>A document that represents a text file on disk. It also provides access to the window it appears in.</string>
+			<key>Name</key>
+			<string>text document</string>
+			<key>PluralName</key>
+			<string>text documents</string>
+		</dict>
+		<key>PBXFileDocument</key>
+		<dict>
+			<key>Description</key>
+			<string>A document that represents a file on disk. It also provides access to the window it appears in.</string>
+			<key>Name</key>
+			<string>file document</string>
+			<key>PluralName</key>
+			<string>file documents</string>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>This suite contains any document-related classes.</string>
+	<key>Name</key>
+	<string>Xcode Document Suite</string>
+</dict>
+</plist>
