@@ -1,0 +1,54 @@
+@media screen and (max-width: 5000px){
+
+  html {
+    margin: 0.5em;
+    margin: auto;
+    border: 0.5em solid #1528b0;
+  }
+
+  header {
+    margin-bottom: 4em;
+  }
+
+  header ul li {
+    padding: 1.3em;
+    margin-left: 1em;
+    margin-top: 3em;
+  }
+
+  p {
+  	margin: 3em;
+  	padding: 3em;
+    text-align: center;
+  }
+
+img {
+	margin-top: 3em;
+	padding: 2em;
+	padding-left: 5em;
+	text-align: center;
+}
+}
+
+@media screen and (max-width: 700px) {
+
+  header {
+    margin-bottom: 2em;
+  }
+
+  header ul li {
+    padding: 1em;
+    margin: 0;
+  }
+
+  p {
+    margin: 1em;
+    padding: 1em;
+    text-align: left;
+  }
+
+  img {
+    margin: 0;
+    padding: 1em;
+  }
+}

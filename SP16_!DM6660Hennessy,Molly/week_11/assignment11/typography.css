@@ -1,0 +1,25 @@
+@media screen and (max-width: 5000px){
+
+  header h1 {
+    font-size: 2.5em;
+    font-family: Times, serif;
+  }
+
+  header ul li {
+    font-size: 1em;
+    font-family: Century Gothic, sans-serif;
+  }
+
+  p {
+    font-size: 1.3em;
+    font-family: Arial, sans-serif;
+    line-height: 2em;
+  }
+}
+
+@media screen and (max-width: 700px){
+
+  p{
+    line-height: 1.3em;
+  }
+}
