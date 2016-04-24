@@ -1,0 +1,82 @@
+@media screen and (max-width: 3000px) {
+
+html {
+  border: 1px dashed transparent;
+  margin: auto;
+  }
+}
+
+@media screen and (min-width: 960px){
+
+body {
+  margin: auto;
+}
+
+html {
+  background-color: white; 
+  border: 0.3em solid black;
+}
+
+header button {
+  color: white;
+  background-color: red;
+}
+
+header ul {
+  text-align: center; 
+}
+
+header ul {
+  text-align: center; 
+  background-color: green;
+}
+
+header ul li {
+  display: inline;
+  padding: 1em;
+  }
+
+header ul li a {
+  color: white;
+}  
+
+header ul li a:hover {
+  color: gold;
+}
+
+.main {
+  max-width: 97%;
+  }
+
+.main img {
+  max-width: 45%;
+  padding: 2%;
+  }
+
+aside {
+  max-width: 80%;
+  }
+
+aside img {
+  max-width: 80%;
+  padding-right: 2em;
+  }
+
+#a {
+  float: left;
+  max-width: 32%; 
+  border: 0.3em solid transparent;
+}
+
+#b {
+  float: left;
+  max-width: 33%; 
+  border: 0.3em solid transparent;
+}
+
+#c {
+  float: right;
+  max-width: 32%; 
+  border: 0.3em solid transparent;
+}
+}
