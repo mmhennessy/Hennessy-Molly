@@ -1,0 +1,167 @@
+html {
+	margin: auto;
+	max-width: 870px;
+	border: 1px solid black;
+}
+h1 {
+	font-family: Helvetica, sans-serif;
+	font-size: 200%;
+	color: #424ca0;
+	padding-left: 5px;
+}
+.row_1 {
+	height: 80px;
+	width: 870px;
+}
+.col_h {
+	float: left;
+	width: 285px;
+	height: 100px;
+	clear: none;
+}
+.col_main-nav {
+	float: right;
+	width: 570px;
+	height: 100px;
+	clear: none;
+}
+.col_main-nav ul {
+	list-style: none;
+	padding-right: 15px;
+	padding-top: 10px;
+}
+.col_main-nav li {
+	float: left;
+	padding-right: 15px;
+	padding-top: 9px;
+}
+.col_main-nav li a {
+	display: block;
+    padding: 2px;
+    text-decoration: none;
+    color: #32720c;
+}
+.col_main-nav li a:hover {
+	text-decoration: none;
+}
+.col_main-nav li ul {
+	display: none;
+	position: absolute;
+	padding: 0;
+}
+.col_main-nav li:hover ul {
+	display: block;
+}
+.col_main-nav li li {
+	float: none;
+	border-bottom: 1px solid #424ca0;
+}
+h2 {
+	font-family: verdana, sans-serif;
+	font-size: 130%;
+	color: #a62931;
+	clear: both;
+	padding-top: 5px;
+}	
+h3 {
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	color: #424ca0;
+	margin-bottom: 0px;
+}
+p {
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	line-height: 1.5em;
+}
+.images h2 {
+	padding-top: 25px;
+}
+.images img {
+	margin-top: 5px;
+	margin-bottom: 25px;
+	padding-left: 70px;
+	padding-right: 50px;
+}
+.signs img {
+	margin-top: 20px;
+	margin-left: 5px;
+	padding-left: 3px;
+}
+.row_2A {
+	width: 870px;
+	margin: 5px 5px 15px 5px;
+	height: 275px;
+}
+.col_1A {
+	float: left;
+	width: 206px;
+	height: 275px;
+	clear: none;	
+}
+.col_2A {
+	float: left;
+	width: 206px;
+	height: 275px;
+	margin-left: 10px;
+	clear: none;	
+}
+.col_2A img {
+	padding-top: 5px;
+}
+.col_3A {
+	float: left;
+	width: 206px;
+	height: 275px;
+	margin-left: 10px;
+	clear: none;	
+}
+.col_4A {
+	float: right;
+	width: 206px;
+	height: 275px;
+	margin-right: 15px;
+	clear: none;
+}
+.row_2B {
+	width: 870px;
+	margin: 5px 5px 15px 5px;
+	height: 315px;
+}
+.col_1B {
+	float: left;
+	width: 206px;
+	height: 315px;
+	margin-bottom: 5px;
+	clear: none;	
+}
+.col_1B img {
+	padding-top: 5px;
+}
+.col_2B {
+	float: left;
+	width: 206px;
+	height: 315px;
+	margin-left: 10px;
+	clear: none;	
+}
+.col_3B {
+	float: left;
+	width: 206px;
+	height: 315px;
+	margin-left: 10px;
+	clear: none;	
+}
+.col_4B {
+	float: right;
+	width: 206px;
+	height: 315px;
+	margin-right: 15px;
+	clear: none;
+}
+footer {
+	clear: both;
+	font-size: 10px;
+	margin: 15px 0px 15px 5px;	
+}
+<!--CSS for home-page and start of l-l listed-->

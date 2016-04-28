@@ -1,0 +1,42 @@
+html {
+	margin: auto;
+	border: 0.5em solid blue;
+	background-color: #b5d9ec;
+}
+
+h1 {
+	color: green;
+	font-size: 2em;
+	font-family: times new roman, serif;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0.5em;
+	float: right;
+	font-size: 1em;
+	font-family: Cambria, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+p {
+	padding: 3em;
+	line-height: 1.5em;
+	font-size: 1.7em;
+	font-family: arial, sans-serif;
+}
+
+form {
+	padding: 0.3em;
+	margin: 0.3em;
+}
