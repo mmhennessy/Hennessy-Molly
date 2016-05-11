@@ -35,23 +35,6 @@ html {
 	color: #332025;
 }
 
-body {
-	width: 100%;
-	margin: auto; 
-}
-
-img {
-	width: 100%;
-}
-
-a {
-	color: #332025;
-}
-
-a:hover {
-	background-color: orange;
-}
-
 header {
 	width: 97.917%;
 	padding-bottom: 5%;
@@ -78,13 +61,30 @@ header nav ul {
 
 header nav ul li {
 	display: inline;
-	margin: 3%;
-	font-size: 1.1em;
+	margin: 2%;
+	font-size: 1em;
 }
 
 header nav ul li a {
 	text-decoration: none;
 	color: #332025;
+}
+
+body {
+	width: 100%;
+	margin: auto; 
+}
+
+img {
+	width: 100%;
+}
+
+a {
+	color: #332025;
+}
+
+a:hover {
+	background-color: orange;
 }
 
 section {
@@ -116,7 +116,7 @@ section article h2 span:first-of-type {
 	display: table-cell;
 	background-color: orange;
 	color: white;
-	font-size: 1em;
+	font-size: 0.5em;
 	font-weight: 300;
 	vertical-align: center;
 	position: absolute;
@@ -191,7 +191,7 @@ footer {
 
 footer h1 {
 	font-size: 1.4em;
-	line-height: 1em;
+	line-height: 1.3em;
 	margin: 0 0 6% 0;
 }
 

@@ -59,8 +59,8 @@ header nav ul {
 
 header nav ul li {
   display: inline;
-  margin: 3%;
-  font-size: 1.1em; }
+  margin: 2%;
+  font-size: 1em; }
 
 header nav ul li a {
   text-decoration: none;
@@ -182,6 +182,18 @@ footer ol li a {
 
 footer:after {
   clear: both; }
+
+@media screen and (min-width: 481px) and (max-width: 900px){
+  header h1 a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  header h1 {
+    font-size: 4em;
+  }
+}
+
 
 @media screen and (max-width: 480px) {
   body {

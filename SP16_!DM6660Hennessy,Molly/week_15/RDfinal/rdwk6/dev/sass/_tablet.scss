@@ -16,12 +16,14 @@ header button {
 
 header ul {
   text-align: center; 
-  background-color: green;
+  background-color: transparent;
+  border: solid 0.1em green;
 }
 
 header ul li {
   display: inline;
   padding: 0.5em;
+  color: black;
   }
 
 header ul li a {
